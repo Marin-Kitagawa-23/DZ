@@ -1,9 +1,9 @@
 .ftitle {
     height: 10vh;
-    width: 80%;
+    width: 60%;
     border: 5px solid black;
     border-radius: 15px;
-    margin-left: 10%;
+    right: 20%;
     padding-bottom: 30px;
     padding-left: 10px;
     text-align: justify;
@@ -27,8 +27,8 @@
         height: 70vh ;
         border: 5px solid black;
         width: 14%;
-        margin: 20px;
-        top: 18vh;
+        left: 20%;
+        top: 123px;
         border-radius: 15px;
         background-color: gray;
         text-align: center;
@@ -38,11 +38,10 @@
 
 #parrent {
     height: 70vh;
-    width: 55%;
+    width: 42%;
     background-color: gray;
-    margin-left: 25%;
-    margin-bottom: 50%;
-    top: 20vh;
+    margin-left:  35%;
+    top: 16vh;
     right: 0;
     border: 5px solid black;
     border-radius: 15px;
@@ -51,28 +50,28 @@
 
 #child1,#child2,#child3,#child4{
 	display:inline-block; /* Сделали все div в одну строку */
-	height:200px;
-	width:200px;
+	height:150px;
+	width:150px;
     border: 5px solid rgb(7, 216, 31);
     background-color: crimson;
 }
 #child1{
 	position:absolute; /* добавили */
-	right: 55%;
-    bottom:40vh; /* добавили */
+	right: 52%;
+    bottom:57vh; /* добавили */
 }
 #child2{
     position:absolute; /* добавили */
-	bottom: 30vh;; /* добавили */
+	bottom: 42vh;; /* добавили */
     right: 45%;
 }
 #child3{
     position:absolute; /* добавили */
-	bottom: 20vh; /* добавили */
-    right: 35%;
+	bottom: 28vh; /* добавили */
+    right: 37%;
 }
 #child4{
     position:absolute; /* добавили */
-	bottom:10vh; /* добавили */
-    right: 25%;
+	bottom:13vh; /* добавили */
+    right: 29%;
 }
