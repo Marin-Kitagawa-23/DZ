@@ -1,0 +1,78 @@
+.ftitle {
+    height: 10vh;
+    width: 80%;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-left: 10%;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: justify;
+    background-color: gray;
+    position: absolute;
+
+}
+
+
+.import-img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid red;
+    border-radius: 100vh;
+    margin: auto;
+    background: url(img/some.jpg);
+
+}
+
+.List{
+        height: 70vh ;
+        border: 5px solid black;
+        width: 14%;
+        margin: 20px;
+        top: 18vh;
+        border-radius: 15px;
+        background-color: gray;
+        text-align: center;
+        list-style: none;
+        position: absolute;
+}
+
+#parrent {
+    height: 70vh;
+    width: 55%;
+    background-color: gray;
+    margin-left: 25%;
+    margin-bottom: 50%;
+    top: 20vh;
+    right: 0;
+    border: 5px solid black;
+    border-radius: 15px;
+    position:relative;
+}
+
+#child1,#child2,#child3,#child4{
+	display:inline-block; /* Сделали все div в одну строку */
+	height:200px;
+	width:200px;
+    border: 5px solid rgb(7, 216, 31);
+    background-color: crimson;
+}
+#child1{
+	position:absolute; /* добавили */
+	right: 55%;
+    bottom:40vh; /* добавили */
+}
+#child2{
+    position:absolute; /* добавили */
+	bottom: 30vh;; /* добавили */
+    right: 45%;
+}
+#child3{
+    position:absolute; /* добавили */
+	bottom: 20vh; /* добавили */
+    right: 35%;
+}
+#child4{
+    position:absolute; /* добавили */
+	bottom:10vh; /* добавили */
+    right: 25%;
+}
