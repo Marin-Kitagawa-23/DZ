@@ -29,7 +29,22 @@
     top: 40px;
     border-radius:  20px;
     text-align: center;
+    line-height: 37px; 
     padding: 0%; 
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background: green;
+    border: 2px solid rebeccapurple;
+    float: top;
+    margin: 40px auto;
+    border-radius: 50%;
+}
+
+#right , #left , .circle {
+    box-shadow: 8px -8px 12px 0px red;
 }
 
 
