@@ -1,0 +1,38 @@
+#back {
+    border-bottom: 5px;
+    border-bottom-color: green ;
+    border-bottom-style: dashed ;
+    border-top: 5px;
+    border-top-style: solid ;
+    border-top-color: black ;
+    border-right: 5px;
+    border-right-color: purple ;
+    border-right-style: solid ;
+    border-left: 5px ;
+    border-left-color: red ;
+    border-left-style: dotted;
+    border-radius: 20px 0px 20px 0px;
+    width: 50%;
+    height: 100vh;
+    margin:auto;
+    padding: 10px;
+}
+
+#left {
+    height: 75vh;
+    width: 15%;
+    position: absolute;
+    top: 40px;
+}
+
+#right {
+    height: 75vh;
+    width: 55%;
+    margin-left: auto;
+}
+
+.light {
+    background-color: rgb(227, 88, 38);
+    border: 5px solid black;
+}
+
