@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#back {
+    background: url(img/body.png) center top;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+}
+
+#main {
+    width: 90vh;
+    height: 90vh;
+    margin: 2.5vh auto;
+    border-radius:25px 0px 25px 0px;
+    padding: 10px;
+}
+
+.bord {
+    border: 10px solid rgb(25, 42, 222);
+}
+
+#header {
+    text-align: center;
+    cursor: default;
+    height: 10vh;
+    line-height: 10vh ;
+    font-weight: 900;
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-shadow: blue 0px 0px 5px;
+    margin-bottom: 2vh;
+    color: rgb(145, 2, 2);
+    border-radius: 50px 0px 0px 0px;
+}
+
+#navigation {
+    text-decoration: none;
+    text-align: center;
+    height: 10vh;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    cursor: default;
+    padding-bottom: 2vh;
+}
+
+#list {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    background-color: blue;
+    color: rgb(145, 2, 2);
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    border: 5px solid rgb(145, 2, 2);
+    border-radius: 10px;
+}
+
+a:hover {
+    color: yellow;
+    background: black;
+}
+
+li:not(:last-of-type) {
+    margin-right: 5%;
+}
+
+h1 {
+    color: rgb(145, 2, 2);
+    text-shadow: blue 0px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+}
+
+#png {
+    display: table;
+    letter-spacing: 0;
+    line-height: 0;
+}
+
+.png {
+    display: inline-block;  
+    height: 25vh;
+    width: 25vh;
+    margin-bottom: 2vh;
+}
+
+.png:not(:last-of-type){
+    margin-right: 3.5vh;
+}
+
+
+
+#footer {
+    height: 24vh ;
+    background: url(img/footer.png) center;
+    border-radius: 0 0 50px 0;
+    background-size: cover;
+    transform: scale(-1,1);
+}
+
+#first-png {
+    background: url(img/first.png) center top;
+    background-size: cover;
+    transform: scale(-1 , 1);
+}
+
+#second-png {
+    background: url(img/second.png) center top;
+    background-size: cover;
+}
+
+#third-png {
+    background: url(img/third.png) center top;
+    background-size: cover;
+}
